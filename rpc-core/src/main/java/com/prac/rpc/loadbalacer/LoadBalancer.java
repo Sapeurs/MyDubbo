@@ -7,7 +7,7 @@ import java.util.List;
 /**
  * 负载均衡策略算法接口
  *
- * @author: Administrator
+ * @author: Sapeurs
  * @date: 2021/7/20 16:20
  * @description:
  */

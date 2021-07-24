@@ -3,8 +3,6 @@ package com.prac.rpc.transport.socket.util;
 import com.prac.rpc.entity.RpcRequest;
 import com.prac.rpc.enumeration.PackageType;
 import com.prac.rpc.serializer.CommonSerializer;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
 import java.io.IOException;
 import java.io.OutputStream;
@@ -12,13 +10,12 @@ import java.io.OutputStream;
 /**
  * Socket方式将数据序列化并写入输出流中【编码】
  *
- * @author: Administrator
+ * @author: Sapeurs
  * @date: 2021/7/22 15:38
  * @description:
  */
 public class ObjectWriter {
 
-    private static final Logger logger = LoggerFactory.getLogger(ObjectWriter.class);
     private static final int MAGIC_NUMBER = 0xCAFEBABE;
 
     public static void writeObject(OutputStream out, Object object, CommonSerializer serializer) throws IOException {

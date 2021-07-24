@@ -4,7 +4,7 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 
 /**
- * @author: Administrator
+ * @author: Sapeurs
  * @date: 2021/7/14 16:51
  * @description: 协议的第二个字段
  * 标识是调用请求还是调用响应

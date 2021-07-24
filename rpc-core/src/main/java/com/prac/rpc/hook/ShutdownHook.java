@@ -8,7 +8,7 @@ import org.slf4j.LoggerFactory;
 /**
  * 将注销服务的方法写到关闭系统的钩子方法中
  *
- * @author: Administrator
+ * @author: Sapeurs
  * @date: 2021/7/20 11:14
  * @description: 钩子服务：在某些事件发生后自动去调用的方法
  */

@@ -8,7 +8,7 @@ import java.lang.annotation.Target;
 /**
  * 标识一个类提供服务
  *
- * @author: Administrator
+ * @author: Sapeurs
  * @date: 2021/7/20 17:02
  * @description: 注解的值定义为该服务的名称，默认值是该类的完整类名
  */

@@ -5,7 +5,7 @@ import com.prac.rpc.serializer.CommonSerializer;
 import com.prac.rpc.transport.netty.server.NettyServer;
 
 /**
- * @author: Administrator
+ * @author: Sapeurs
  * @date: 2021/7/15 9:53
  * @description: 使用Netty的服务端测试
  */

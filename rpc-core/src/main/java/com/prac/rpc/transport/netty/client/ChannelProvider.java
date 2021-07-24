@@ -22,7 +22,7 @@ import java.util.concurrent.TimeUnit;
 /**
  * 用于获取Channel对象
  *
- * @author: Administrator
+ * @author: Sapeurs
  * @date: 2021/7/19 18:28
  * @description:
  */
@@ -32,6 +32,9 @@ public class ChannelProvider {
     private static EventLoopGroup eventLoopGroup;
     private static Bootstrap bootstrap = initializeBootstrap();
 
+    /**
+     * 所有客户端Channel都保存在该Map中
+     */
     private static Map<String, Channel> channels = new ConcurrentHashMap<>();
 
     public static Channel get(InetSocketAddress inetSocketAddress, CommonSerializer serializer) throws InterruptedException {
@@ -57,7 +60,7 @@ public class ChannelProvider {
                         则触发一次userEventTrigger()方法
                          */
                         //实现客户端每5秒向服务端发送一次消息
-                        .addLast(new IdleStateHandler(0, 5, 9, TimeUnit.SECONDS))
+                        .addLast(new IdleStateHandler(0, 5, 0, TimeUnit.SECONDS))
                         .addLast(new CommonDecoder())
                         .addLast(new NettyClientHandler());
             }
@@ -108,7 +111,7 @@ public class ChannelProvider {
                 .channel(NioSocketChannel.class)
                 //设置连接的超时时间，超过这个时间还是建立不上的话代表连接失败
                 .option(ChannelOption.CONNECT_TIMEOUT_MILLIS, 5000)
-                //开始TCP底层心跳机制
+                //开始TCP底层心跳机制，会主动探测空闲连接的有效性
                 .option(ChannelOption.SO_KEEPALIVE, true)
                 //关闭Nagle算法，减少延时，该算法的作用是尽可能的发送大数据块，减少网络传输
                 .option(ChannelOption.TCP_NODELAY, true);

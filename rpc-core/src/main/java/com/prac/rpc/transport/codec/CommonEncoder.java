@@ -8,7 +8,7 @@ import io.netty.channel.ChannelHandlerContext;
 import io.netty.handler.codec.MessageToByteEncoder;
 
 /**
- * @author: Administrator
+ * @author: Sapeurs
  * @date: 2021/7/14 15:57
  * @description: 自定义协议编码器
  * <p>

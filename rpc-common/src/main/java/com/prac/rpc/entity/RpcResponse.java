@@ -8,7 +8,7 @@ import lombok.NoArgsConstructor;
 import java.io.Serializable;
 
 /**
- * @author: Administrator
+ * @author: Sapeurs
  * @date: 2021/7/13 10:03
  * @description: 服务器调用完方法后返回给客户端的信息，封装为RpcResponse对象
  * 类似于传输协议

@@ -10,7 +10,7 @@ import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
 
 /**
- * @author: Administrator
+ * @author: Sapeurs
  * @date: 2021/7/14 10:37
  * @description: 默认注册表类，用来实现服务注册表
  */

@@ -7,7 +7,7 @@ import java.util.List;
 /**
  * 转轮负载均衡算法
  *
- * @author: Administrator
+ * @author: Sapeurs
  * @date: 2021/7/20 16:34
  * @description: 按照顺序依次选择第一个、第二个、第三个。。。
  */

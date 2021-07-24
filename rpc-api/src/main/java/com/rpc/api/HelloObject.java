@@ -7,7 +7,7 @@ import lombok.NoArgsConstructor;
 import java.io.Serializable;
 
 /**
- * @author: Administrator
+ * @author: Sapeurs
  * @date: 2021/7/12 17:11
  * @description: Service方法中需要传递的测试对象
  */

@@ -7,7 +7,7 @@ import com.rpc.api.HelloObject;
 import com.rpc.api.HelloService;
 
 /**
- * @author: Administrator
+ * @author: Sapeurs
  * @date: 2021/7/15 9:47
  * @description: 使用Netty的客户端测试
  */

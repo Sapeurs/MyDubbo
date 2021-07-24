@@ -17,7 +17,7 @@ import java.util.Set;
 /**
  * 管理Nacos连接等的工具类
  *
- * @author: Administrator
+ * @author: Sapeurs
  * @date: 2021/7/20 10:45
  * @description:
  */
@@ -29,13 +29,27 @@ public class NacosUtil {
     private static final NamingService nameService;
     //注册服务的集合
     private static final Set<String> serviceNames = new HashSet<>();
-    private static InetSocketAddress address;
+    private static InetSocketAddress inetSocketAddress;
 
     private static final String SERVER_ADDR = "127.0.0.1:8848";
 
 
     static {
         nameService = getNacosNameService();
+    }
+
+
+    /**
+     * 向Nacos中注册一个服务
+     *
+     * @param serviceName 服务名
+     * @param inetSocketAddress 服务所在地址
+     */
+    public static void registerService(String serviceName, InetSocketAddress inetSocketAddress) throws NacosException {
+        nameService.registerInstance(serviceName, inetSocketAddress.getHostName(), inetSocketAddress.getPort());
+        NacosUtil.inetSocketAddress = inetSocketAddress;
+        //保存注册的用户名
+        serviceNames.add(serviceName);
     }
 
     /**
@@ -52,17 +66,6 @@ public class NacosUtil {
         }
     }
 
-    /**
-     * 向Nacos中注册一个服务
-     *
-     * @param serviceName
-     * @param address
-     */
-    public static void registerService(String serviceName, InetSocketAddress address) throws NacosException {
-        nameService.registerInstance(serviceName, address.getHostName(), address.getPort());
-        NacosUtil.address = address;
-        serviceNames.add(serviceName);
-    }
 
     /**
      * 获取所有提供该服务的服务端地址
@@ -80,9 +83,9 @@ public class NacosUtil {
      * 向Nacos注销所有服务
      */
     public static void clearRegistry() {
-        if (!serviceNames.isEmpty() && address != null) {
-            String host = address.getHostName();
-            int port = address.getPort();
+        if (!serviceNames.isEmpty() && inetSocketAddress != null) {
+            String host = inetSocketAddress.getHostName();
+            int port = inetSocketAddress.getPort();
             //迭代所有服务名
             for (String serviceName : serviceNames) {
                 try {
