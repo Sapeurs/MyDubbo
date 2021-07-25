@@ -37,6 +37,13 @@ public class ChannelProvider {
      */
     private static Map<String, Channel> channels = new ConcurrentHashMap<>();
 
+    /**
+     * 从Map中获取一个Channel或者新建一个
+     * @param inetSocketAddress
+     * @param serializer
+     * @return
+     * @throws InterruptedException
+     */
     public static Channel get(InetSocketAddress inetSocketAddress, CommonSerializer serializer) throws InterruptedException {
         String key = inetSocketAddress.toString() + serializer.getCode();
         if (channels.containsKey(key)) {

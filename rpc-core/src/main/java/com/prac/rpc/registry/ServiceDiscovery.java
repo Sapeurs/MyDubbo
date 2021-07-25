@@ -7,7 +7,7 @@ import java.net.InetSocketAddress;
  *
  * @author: Sapeurs
  * @date: 2021/7/21 16:20
- * @description:
+ * @description: 从Nacos注册中心获得已经注册的服务
  */
 public interface ServiceDiscovery {
 

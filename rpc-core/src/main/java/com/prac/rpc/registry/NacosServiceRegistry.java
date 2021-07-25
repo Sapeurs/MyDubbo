@@ -23,9 +23,6 @@ public class NacosServiceRegistry implements ServiceRegistry {
     @Override
     public void register(String serviceName, InetSocketAddress inetSocketAddress) {
         try {
-            //直接向 Nacos 注册服务
-            //namingService.registerInstance(serviceName, inetSocketAddress.getHostName(), inetSocketAddress.getPort());
-
             //通过Nacos工具类中的注解注册服务
             NacosUtil.registerService(serviceName, inetSocketAddress);
         } catch (NacosException e) {
