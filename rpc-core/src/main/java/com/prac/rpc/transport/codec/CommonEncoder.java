@@ -8,9 +8,10 @@ import io.netty.channel.ChannelHandlerContext;
 import io.netty.handler.codec.MessageToByteEncoder;
 
 /**
+ * 自定义协议编码器
  * @author: Sapeurs
  * @date: 2021/7/14 15:57
- * @description: 自定义协议编码器
+ * @description:
  * <p>
  * 自定义的协议
  * +---------------+---------------+-----------------+-------------+

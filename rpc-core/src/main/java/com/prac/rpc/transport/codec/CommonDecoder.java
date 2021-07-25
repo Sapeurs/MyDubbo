@@ -15,9 +15,10 @@ import org.slf4j.LoggerFactory;
 import java.util.List;
 
 /**
+ * 自定义协议解码器
  * @author: Sapeurs
  * @date: 2021/7/14 17:05
- * @description: 自定义协议解码器
+ * @description:
  */
 public class CommonDecoder extends ReplayingDecoder {
 
