@@ -29,7 +29,9 @@ import java.util.concurrent.TimeUnit;
 public class ChannelProvider {
 
     private static final Logger logger = LoggerFactory.getLogger(ChannelProvider.class);
+    //处理与服务端连接、读写等事件
     private static EventLoopGroup eventLoopGroup;
+    //客户端启动器
     private static Bootstrap bootstrap = initializeBootstrap();
 
     /**
@@ -115,6 +117,7 @@ public class ChannelProvider {
         eventLoopGroup = new NioEventLoopGroup();
         Bootstrap bootstrap = new Bootstrap();
         bootstrap.group(eventLoopGroup)
+                //设置客户端通道类型NioSocketChannel
                 .channel(NioSocketChannel.class)
                 //设置连接的超时时间，超过这个时间还是建立不上的话代表连接失败
                 .option(ChannelOption.CONNECT_TIMEOUT_MILLIS, 5000)

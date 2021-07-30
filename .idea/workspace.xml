@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b243cabf-4485-459b-8abe-11966ec20fbd" name="默认变更列表" comment="Update README.md">
-      <change beforePath="$PROJECT_DIR$/rpc-core/src/main/java/com/prac/rpc/transport/codec/CommonDecoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-core/src/main/java/com/prac/rpc/transport/codec/CommonDecoder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpc-core/src/main/java/com/prac/rpc/transport/codec/CommonEncoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-core/src/main/java/com/prac/rpc/transport/codec/CommonEncoder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-core/src/main/java/com/prac/rpc/transport/netty/client/ChannelProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-core/src/main/java/com/prac/rpc/transport/netty/client/ChannelProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-core/src/main/java/com/prac/rpc/transport/netty/server/NettyServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-core/src/main/java/com/prac/rpc/transport/netty/server/NettyServer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,7 +135,7 @@
       <workItem from="1626080499780" duration="1304000" />
       <workItem from="1626081841044" duration="52520000" />
       <workItem from="1626660645037" duration="78398000" />
-      <workItem from="1627030528234" duration="29073000" />
+      <workItem from="1627030528234" duration="35158000" />
     </task>
     <task id="LOCAL-00001" summary="Update README.md">
       <created>1627130565030</created>
@@ -171,7 +172,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627200281847</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Update README.md">
+      <created>1627215525428</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1627215525428</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
