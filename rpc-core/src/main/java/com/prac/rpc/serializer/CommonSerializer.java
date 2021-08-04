@@ -1,7 +1,7 @@
 package com.prac.rpc.serializer;
 
 /**
- * @author: Administrator
+ * @author: Sapeurs
  * @date: 2021/7/14 16:03
  * @description: 序列化接口
  */
@@ -12,8 +12,8 @@ public interface CommonSerializer {
     Integer HESSIAN_SERIALIZER = 2;
     Integer PROTOBUF_SERIALIZER = 3;
 
-
-    Integer DEFAULT_SERIALIZER = KRYO_SERIALIZER;
+    //默认序列化器
+    Integer DEFAULT_SERIALIZER = PROTOBUF_SERIALIZER;
 
     /**
      * 将对象序列化为byte数组

@@ -8,10 +8,10 @@ import lombok.NoArgsConstructor;
 import java.io.Serializable;
 
 /**
- * @author: Administrator
+ * @author: Sapeurs
  * @date: 2021/7/13 9:57
  * @description: 将接口名字、方法名字、方法的所有参数类型以及客户端调用时传递参数的实际值写到
- * RpcRequest对象中用于传输信息
+ * RpcRequest对象中用于向服务端传输信息
  * 类似于传输协议
  */
 @Data

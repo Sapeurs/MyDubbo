@@ -3,7 +3,7 @@ package com.prac.rpc.exception;
 import com.prac.rpc.enumeration.RpcError;
 
 /**
- * @author: Administrator
+ * @author: Sapeurs
  * @date: 2021/7/14 10:45
  * @description: 通用RPC异常类
  */

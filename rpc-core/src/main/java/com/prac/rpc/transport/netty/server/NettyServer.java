@@ -24,7 +24,7 @@ import org.slf4j.LoggerFactory;
 import java.util.concurrent.TimeUnit;
 
 /**
- * @author: Administrator
+ * @author: Sapeurs
  * @date: 2021/7/14 15:47
  * @description: RpcServer的Netty实现类，采用效率更高的NIO模式
  */
@@ -63,7 +63,7 @@ public class NettyServer extends AbstractRpcServer {
             //Netty的责任链模式
             //将主从"线程池"初始化到启动器中
             serverBootstrap.group(bossGroup, workerGroup)
-                    //设置服务端通道类型
+                    //设置服务端通道类型NioServerSocketChannel
                     .channel(NioServerSocketChannel.class)
                     //日志打印方式
                     .handler(new LoggingHandler(LogLevel.INFO))
@@ -79,7 +79,8 @@ public class NettyServer extends AbstractRpcServer {
                             //初始化管道
                             ChannelPipeline pipeline = ch.pipeline();
                             /*
-                            往管道中添加Handler，入站Handler与出站Handler都必须按实际执行顺序添加，比如先解码再Server处理，那Decoder()就要放在前面
+                            往管道中添加Handler，入站Handler与出站Handler都必须按实际执行顺序添加，
+                            比如先解码再Server处理，那Decoder()就要放在前面
                             但入站和出站之间则互不影响，这里先添加出站Handler再添加入站
                              */
                             pipeline.addLast(new CommonEncoder(serializer));
@@ -103,15 +104,4 @@ public class NettyServer extends AbstractRpcServer {
         }
     }
 
-//    @Override
-//    public <T> void publishService(Object service, String serviceName) {
-//        if (serializer == null){
-//            logger.error("未设置序列化器");
-//            throw new RpcException(RpcError.SERIALIZER_NOT_FOUND);
-//        }
-//        serviceProvider.addServiceProvider(service,serviceName);
-//        serviceRegistry.register(serviceName, new InetSocketAddress(host,port));
-    //注册完一个服务后直接调用start()方法，会导致一个服务端只能注册一个服务
-//        start();
-//    }
 }

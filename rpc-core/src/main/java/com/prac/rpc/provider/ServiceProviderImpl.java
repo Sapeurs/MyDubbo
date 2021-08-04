@@ -10,7 +10,7 @@ import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
 
 /**
- * @author: Administrator
+ * @author: Sapeurs
  * @date: 2021/7/14 10:37
  * @description: 默认注册表类，用来实现服务注册表
  */
@@ -26,7 +26,7 @@ public class ServiceProviderImpl implements ServiceProvider {
      */
     private static final Map<String, Object> serviceMap = new ConcurrentHashMap<>();
     /**
-     * 保存当前已被注册的对象
+     * 保存当前已被注册的服务名称，即接口名
      */
     private static final Set<String> registeredService = ConcurrentHashMap.newKeySet();
 
@@ -38,8 +38,6 @@ public class ServiceProviderImpl implements ServiceProvider {
      */
     @Override
     public synchronized <T> void addServiceProvider(T service, String serviceName) {
-        //获得service实现接口的完整类名作为服务名
-        //String serviceName = service.getClass().getCanonicalName();
         if (registeredService.contains(serviceName)) return;
         registeredService.add(serviceName);
         //获得所注册服务实现的接口，一个对象可能实现多个接口

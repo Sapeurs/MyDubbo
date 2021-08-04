@@ -3,7 +3,7 @@ package com.prac.rpc.transport;
 import com.prac.rpc.entity.RpcRequest;
 
 /**
- * @author: Administrator
+ * @author: Sapeurs
  * @date: 2021/7/13 11:12
  * @description: 将一个Request对象发送给客户端，并且接受返回的对象Response
  * <p>

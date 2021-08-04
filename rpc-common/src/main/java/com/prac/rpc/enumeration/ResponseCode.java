@@ -4,7 +4,7 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 
 /**
- * @author: Administrator
+ * @author: Sapeurs
  * @date: 2021/7/13 10:41
  * @description: 响应状态码枚举类
  */

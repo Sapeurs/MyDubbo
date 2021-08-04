@@ -12,7 +12,7 @@ import java.net.InetSocketAddress;
 /**
  * 实现一个以Nacos作为注册中心的类
  *
- * @author: Administrator
+ * @author: Sapeurs
  * @date: 2021/7/19 10:19
  * @description:
  */
@@ -23,9 +23,6 @@ public class NacosServiceRegistry implements ServiceRegistry {
     @Override
     public void register(String serviceName, InetSocketAddress inetSocketAddress) {
         try {
-            //直接向 Nacos 注册服务
-            //namingService.registerInstance(serviceName, inetSocketAddress.getHostName(), inetSocketAddress.getPort());
-
             //通过Nacos工具类中的注解注册服务
             NacosUtil.registerService(serviceName, inetSocketAddress);
         } catch (NacosException e) {

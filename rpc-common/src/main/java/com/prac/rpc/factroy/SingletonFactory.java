@@ -6,7 +6,7 @@ import java.util.Map;
 /**
  * 单例工厂
  *
- * @author: Administrator
+ * @author: Sapeurs
  * @date: 2021/7/23 15:25
  * @description:
  */

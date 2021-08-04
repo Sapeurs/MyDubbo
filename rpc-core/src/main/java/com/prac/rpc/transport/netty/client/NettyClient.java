@@ -26,7 +26,7 @@ import java.util.concurrent.CompletableFuture;
 /**
  * RpcClient的Netty实现类
  *
- * @author: Administrator
+ * @author: Sapeurs
  * @date: 2021/7/14 21:46
  * @description: 相比于Socket的BIO，采用效率更高的NIO模式
  */
@@ -41,6 +41,10 @@ public class NettyClient implements RpcClient {
     private final ServiceDiscovery serviceDiscovery;
 
     private final UnprocessedRequests unprocessedRequests;
+
+    public NettyClient(){
+        this(CommonSerializer.DEFAULT_SERIALIZER);
+    }
 
     public NettyClient(Integer serializer) {
         this(serializer, new RandomLoadBalancer());
@@ -66,23 +70,26 @@ public class NettyClient implements RpcClient {
             logger.error("未设置序列化器");
             throw new RpcException(RpcError.SERIALIZER_NOT_FOUND);
         }
-        //AtomicReference<Object> result = new AtomicReference<>(null);
         CompletableFuture<RpcResponse> resultFuture = new CompletableFuture<>();
         try {
-            //现在是首先从Nacos中获取到服务的地址和端口，再创建Netty通道channel连接,
-            InetSocketAddress inetSocketAddress = serviceDiscovery.lookupService(rpcRequest.getInterfaceName());
-            Channel channel = ChannelProvider.get(inetSocketAddress, serializer);
+
             //过去是直接使用传入的host和port直接构造channel
             //ChannelFuture future = bootStrap.connect(host, port).sync();
             //logger.info("客户端连接到服务器，地址：{}，端口号：{}", host, port);
             //Channel channel = future.channel();
 
+            //现在是首先从Nacos中获取到服务的地址和端口，再创建Netty通道channel连接,
+            InetSocketAddress inetSocketAddress = serviceDiscovery.lookupService(rpcRequest.getInterfaceName());
+            Channel channel = ChannelProvider.get(inetSocketAddress, serializer);
+
             if (!channel.isActive()) {
                 group.shutdownGracefully();
                 return null;
             }
+
+            //将新请求放到未处理完的请求中
             unprocessedRequests.put(rpcRequest.getRequestId(), resultFuture);
-            //向channel中写入rpcRequest并且监听
+            //向channel中写入rpcRequest发送请求并且设置监听
             channel.writeAndFlush(rpcRequest).addListener((ChannelFutureListener) future1 -> {
                 if (future1.isSuccess()) {
                     logger.info(String.format("客户端发送消息：%s", rpcRequest.toString()));
@@ -92,16 +99,11 @@ public class NettyClient implements RpcClient {
                     logger.error("发送消息时有错误发生：", future1.cause());
                 }
             });
-            //channel.closeFuture().sync();
-            //AttributeMap<AttributeKey,AttributeValue>是板顶在Channel上的，可以设置用来获取通道对象
-//                AttributeKey<RpcResponse> key = AttributeKey.valueOf("rpcResponse");
-            //get()阻塞获取value
-//                RpcResponse rpcResponse = channel.attr(key).get();
-            //return rpcResponse.getData();
-            //return rpcResponse;
         } catch (InterruptedException e) {
+            //将请求从集合中移除
             unprocessedRequests.remove(rpcRequest.getRequestId());
             logger.error("发送消息时发生错误：", e);
+            //interrupt()的作用是给受阻塞的当前线程发出一个中断信号，让当前线程退出阻塞状态，好继续执行然后结束
             Thread.currentThread().interrupt();
         }
         return resultFuture;

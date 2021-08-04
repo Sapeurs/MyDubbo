@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b243cabf-4485-459b-8abe-11966ec20fbd" name="默认变更列表" comment="" />
+    <list default="true" id="b243cabf-4485-459b-8abe-11966ec20fbd" name="默认变更列表" comment="Update README.md">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-core/src/main/java/com/prac/rpc/transport/netty/client/ChannelProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-core/src/main/java/com/prac/rpc/transport/netty/client/ChannelProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-core/src/main/java/com/prac/rpc/transport/netty/server/NettyServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-core/src/main/java/com/prac/rpc/transport/netty/server/NettyServer.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,20 +28,20 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1vCyitNYiPvjm971PeBGPmYFFc6" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Javaspace" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../LeetCode" />
     <property name="project.structure.last.edited" value="模块" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -45,7 +49,7 @@
       <recent name="D:\spring-project\MyDubbo\test-server\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.NettyTestServer">
+  <component name="RunManager" selected="应用程序.NettyTestClient">
     <configuration name="NettyTestClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.prac.test.NettyTestClient" />
       <module name="test-client" />
@@ -98,6 +102,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="应用程序.NettyTestClient" />
@@ -117,8 +134,52 @@
       <updated>1626080498622</updated>
       <workItem from="1626080499780" duration="1304000" />
       <workItem from="1626081841044" duration="52520000" />
-      <workItem from="1626660645037" duration="79308000" />
+      <workItem from="1626660645037" duration="78398000" />
+      <workItem from="1627030528234" duration="35158000" />
     </task>
+    <task id="LOCAL-00001" summary="Update README.md">
+      <created>1627130565030</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1627130565030</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Update README.md">
+      <created>1627130876606</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1627130876606</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Update README.md">
+      <created>1627198693468</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1627198693469</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Update README.md">
+      <created>1627200261038</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1627200261038</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Update README.md">
+      <created>1627200281847</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1627200281847</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Update README.md">
+      <created>1627215525428</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1627215525428</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,6 +196,10 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Update README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update README.md" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -144,5 +209,9 @@
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

@@ -15,7 +15,7 @@ import java.io.OutputStream;
 import java.net.Socket;
 
 /**
- * @author: Administrator
+ * @author: Sapeurs
  * @date: 2021/7/14 11:24
  * @description: 处理线程，从ServiceRegistry获得提供服务的requestHandler对象，
  * 然后交给RequestHandler处理

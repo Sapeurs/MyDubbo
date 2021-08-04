@@ -3,9 +3,10 @@ package com.prac.rpc.registry;
 import java.net.InetSocketAddress;
 
 /**
- * @author: Administrator
+ * 作为远程注册表(Nacos)使用，Nacos作为服务注册中心
+ * @author: Sapeurs
  * @date: 2021/7/14 10:33
- * @description: 新：作为远程注册表(Nacos)使用，Nacos作为服务注册中心
+ * @description: 将服务注册到Nacos以供客户端发现
  */
 public interface ServiceRegistry {
 

@@ -26,9 +26,9 @@ import java.net.Socket;
 /**
  * Socket方式远程调用的消费者（客户端）
  *
- * @author: Administrator
+ * @author: Sapeurs
  * @date: 2021/7/14 15:24
- * @description: RpcClient的实现类
+ * @description: RpcClient的Socket实现类
  */
 public class SocketClient implements RpcClient {
 
@@ -55,13 +55,20 @@ public class SocketClient implements RpcClient {
             throw new RpcException(RpcError.SERIALIZER_NOT_FOUND);
         }
 
+        //从Nacos获取提供对应服务的服务端地址
         InetSocketAddress inetSocketAddress = serviceDiscovery.lookupService(rpcRequest.getInterfaceName());
 
+        /**
+         * Socket套接字实现TCP网络传输
+         * try()中一般放置对资源的申请，若{}中出现异常，()中的资源会自动关闭
+         */
         try (Socket socket = new Socket()) {
             socket.connect(inetSocketAddress);
             OutputStream outputStream = socket.getOutputStream();
             InputStream inputStream = socket.getInputStream();
+            //使用ObjectWriter通过Socket方式将Request请求序列化并且写入到输出流中
             ObjectWriter.writeObject(outputStream, rpcRequest, serializer);
+            //使用ObjectReader通过Socket方式将输入流中的数据反序列化并返回
             RpcResponse rpcResponse = (RpcResponse) ObjectReader.readObject(inputStream);
             if (rpcResponse == null) {
                 logger.error("服务调用失败，service:{}", rpcRequest.getInterfaceName());

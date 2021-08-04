@@ -1,0 +1,204 @@
+<changelist name="在进行更新之前于_2021_7_24_9_46_取消提交了变更_[默认变更列表]" date="1627091196188" recycled="true" deleted="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2021_7_24_9_46_取消提交了变更_[默认变更列表]/shelved.patch" />
+  <option name="DESCRIPTION" value="在进行更新之前于 2021/7/24 9:46 取消提交了变更 [默认变更列表]" />
+  <binary>
+    <option name="BEFORE_PATH" value="test-server/target/classes/com/prac/test/TestServer.class" />
+    <option name="AFTER_PATH" value="test-server/target/classes/com/prac/test/TestServer.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2021_7_24_9_46_取消提交了变更_[默认变更列表]/TestServer.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="rpc-core/target/classes/com/prac/rpc/transport/AbstractRpcServer.class" />
+    <option name="AFTER_PATH" value="rpc-core/target/classes/com/prac/rpc/transport/AbstractRpcServer.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2021_7_24_9_46_取消提交了变更_[默认变更列表]/AbstractRpcServer.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="rpc-api/target/classes/com/rpc/api/HelloObject.class" />
+    <option name="AFTER_PATH" value="rpc-api/target/classes/com/rpc/api/HelloObject.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2021_7_24_9_46_取消提交了变更_[默认变更列表]/HelloObject.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="rpc-core/target/classes/com/prac/rpc/transport/netty/server/NettyServer$1.class" />
+    <option name="AFTER_PATH" value="rpc-core/target/classes/com/prac/rpc/transport/netty/server/NettyServer$1.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2021_7_24_9_46_取消提交了变更_[默认变更列表]/NettyServer$1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="rpc-common/target/classes/com/prac/rpc/factroy/SingletonFactory.class" />
+    <option name="AFTER_PATH" value="rpc-common/target/classes/com/prac/rpc/factroy/SingletonFactory.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2021_7_24_9_46_取消提交了变更_[默认变更列表]/SingletonFactory.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="rpc-common/target/classes/com/prac/rpc/util/ReflectUtil.class" />
+    <option name="AFTER_PATH" value="rpc-common/target/classes/com/prac/rpc/util/ReflectUtil.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2021_7_24_9_46_取消提交了变更_[默认变更列表]/ReflectUtil.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="rpc-common/target/classes/com/prac/rpc/enumeration/SerializerCode.class" />
+    <option name="AFTER_PATH" value="rpc-common/target/classes/com/prac/rpc/enumeration/SerializerCode.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2021_7_24_9_46_取消提交了变更_[默认变更列表]/SerializerCode.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="rpc-core/target/classes/com/prac/rpc/loadbalacer/RoundRobinLoadBalancer.class" />
+    <option name="AFTER_PATH" value="rpc-core/target/classes/com/prac/rpc/loadbalacer/RoundRobinLoadBalancer.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2021_7_24_9_46_取消提交了变更_[默认变更列表]/RoundRobinLoadBalancer.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="rpc-core/target/classes/com/prac/rpc/transport/socket/client/SocketClient.class" />
+    <option name="AFTER_PATH" value="rpc-core/target/classes/com/prac/rpc/transport/socket/client/SocketClient.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2021_7_24_9_46_取消提交了变更_[默认变更列表]/SocketClient.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="rpc-common/target/classes/com/prac/rpc/util/NacosUtil.class" />
+    <option name="AFTER_PATH" value="rpc-common/target/classes/com/prac/rpc/util/NacosUtil.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2021_7_24_9_46_取消提交了变更_[默认变更列表]/NacosUtil.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="rpc-core/target/classes/com/prac/rpc/serializer/KryoSerializer.class" />
+    <option name="AFTER_PATH" value="rpc-core/target/classes/com/prac/rpc/serializer/KryoSerializer.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2021_7_24_9_46_取消提交了变更_[默认变更列表]/KryoSerializer.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="rpc-core/target/classes/com/prac/rpc/loadbalacer/RandomLoadBalancer.class" />
+    <option name="AFTER_PATH" value="rpc-core/target/classes/com/prac/rpc/loadbalacer/RandomLoadBalancer.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2021_7_24_9_46_取消提交了变更_[默认变更列表]/RandomLoadBalancer.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="rpc-core/target/classes/com/prac/rpc/provider/ServiceProviderImpl.class" />
+    <option name="AFTER_PATH" value="rpc-core/target/classes/com/prac/rpc/provider/ServiceProviderImpl.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2021_7_24_9_46_取消提交了变更_[默认变更列表]/ServiceProviderImpl.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="rpc-core/target/classes/com/prac/rpc/transport/netty/client/ChannelProvider$1.class" />
+    <option name="AFTER_PATH" value="rpc-core/target/classes/com/prac/rpc/transport/netty/client/ChannelProvider$1.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2021_7_24_9_46_取消提交了变更_[默认变更列表]/ChannelProvider$1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="test-client/target/classes/com/prac/test/TestClient.class" />
+    <option name="AFTER_PATH" value="test-client/target/classes/com/prac/test/TestClient.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2021_7_24_9_46_取消提交了变更_[默认变更列表]/TestClient.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="rpc-core/target/classes/com/prac/rpc/serializer/JsonSerializer.class" />
+    <option name="AFTER_PATH" value="rpc-core/target/classes/com/prac/rpc/serializer/JsonSerializer.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2021_7_24_9_46_取消提交了变更_[默认变更列表]/JsonSerializer.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="rpc-core/target/classes/com/prac/rpc/transport/codec/CommonEncoder.class" />
+    <option name="AFTER_PATH" value="rpc-core/target/classes/com/prac/rpc/transport/codec/CommonEncoder.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2021_7_24_9_46_取消提交了变更_[默认变更列表]/CommonEncoder.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="rpc-core/target/classes/com/prac/rpc/transport/netty/client/NettyClientHandler.class" />
+    <option name="AFTER_PATH" value="rpc-core/target/classes/com/prac/rpc/transport/netty/client/NettyClientHandler.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2021_7_24_9_46_取消提交了变更_[默认变更列表]/NettyClientHandler.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="rpc-common/target/classes/com/prac/rpc/entity/RpcResponse.class" />
+    <option name="AFTER_PATH" value="rpc-common/target/classes/com/prac/rpc/entity/RpcResponse.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2021_7_24_9_46_取消提交了变更_[默认变更列表]/RpcResponse.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="rpc-common/target/classes/com/prac/rpc/enumeration/PackageType.class" />
+    <option name="AFTER_PATH" value="rpc-common/target/classes/com/prac/rpc/enumeration/PackageType.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2021_7_24_9_46_取消提交了变更_[默认变更列表]/PackageType.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="rpc-core/target/classes/com/prac/rpc/serializer/CommonSerializer.class" />
+    <option name="AFTER_PATH" value="rpc-core/target/classes/com/prac/rpc/serializer/CommonSerializer.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2021_7_24_9_46_取消提交了变更_[默认变更列表]/CommonSerializer.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="rpc-core/target/classes/com/prac/rpc/serializer/HessianSerializer.class" />
+    <option name="AFTER_PATH" value="rpc-core/target/classes/com/prac/rpc/serializer/HessianSerializer.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2021_7_24_9_46_取消提交了变更_[默认变更列表]/HessianSerializer.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="test-server/target/classes/com/prac/test/impl/ByeServiceImpl.class" />
+    <option name="AFTER_PATH" value="test-server/target/classes/com/prac/test/impl/ByeServiceImpl.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2021_7_24_9_46_取消提交了变更_[默认变更列表]/ByeServiceImpl.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="rpc-core/target/classes/com/prac/rpc/serializer/ProtostuffSerializer.class" />
+    <option name="AFTER_PATH" value="rpc-core/target/classes/com/prac/rpc/serializer/ProtostuffSerializer.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2021_7_24_9_46_取消提交了变更_[默认变更列表]/ProtostuffSerializer.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="rpc-common/target/classes/com/prac/rpc/enumeration/RpcError.class" />
+    <option name="AFTER_PATH" value="rpc-common/target/classes/com/prac/rpc/enumeration/RpcError.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2021_7_24_9_46_取消提交了变更_[默认变更列表]/RpcError.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="rpc-core/target/classes/com/prac/rpc/transport/netty/client/ChannelProvider.class" />
+    <option name="AFTER_PATH" value="rpc-core/target/classes/com/prac/rpc/transport/netty/client/ChannelProvider.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2021_7_24_9_46_取消提交了变更_[默认变更列表]/ChannelProvider.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="test-client/target/classes/com/prac/test/NettyTestClient.class" />
+    <option name="AFTER_PATH" value="test-client/target/classes/com/prac/test/NettyTestClient.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2021_7_24_9_46_取消提交了变更_[默认变更列表]/NettyTestClient.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="rpc-core/target/classes/com/prac/rpc/transport/netty/client/NettyClient.class" />
+    <option name="AFTER_PATH" value="rpc-core/target/classes/com/prac/rpc/transport/netty/client/NettyClient.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2021_7_24_9_46_取消提交了变更_[默认变更列表]/NettyClient.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="rpc-common/target/classes/com/prac/rpc/entity/RpcRequest$RpcRequestBuilder.class" />
+    <option name="AFTER_PATH" value="rpc-common/target/classes/com/prac/rpc/entity/RpcRequest$RpcRequestBuilder.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2021_7_24_9_46_取消提交了变更_[默认变更列表]/RpcRequest$RpcRequestBuilder.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="rpc-core/target/classes/com/prac/rpc/hook/ShutdownHook.class" />
+    <option name="AFTER_PATH" value="rpc-core/target/classes/com/prac/rpc/hook/ShutdownHook.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2021_7_24_9_46_取消提交了变更_[默认变更列表]/ShutdownHook.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="rpc-core/target/classes/com/prac/rpc/transport/socket/server/SocketServer.class" />
+    <option name="AFTER_PATH" value="rpc-core/target/classes/com/prac/rpc/transport/socket/server/SocketServer.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2021_7_24_9_46_取消提交了变更_[默认变更列表]/SocketServer.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="rpc-core/target/classes/com/prac/rpc/transport/socket/util/ObjectWriter.class" />
+    <option name="AFTER_PATH" value="rpc-core/target/classes/com/prac/rpc/transport/socket/util/ObjectWriter.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2021_7_24_9_46_取消提交了变更_[默认变更列表]/ObjectWriter.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="rpc-core/target/classes/com/prac/rpc/transport/RpcClientProxy.class" />
+    <option name="AFTER_PATH" value="rpc-core/target/classes/com/prac/rpc/transport/RpcClientProxy.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2021_7_24_9_46_取消提交了变更_[默认变更列表]/RpcClientProxy.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="rpc-common/target/classes/com/prac/rpc/exception/RpcException.class" />
+    <option name="AFTER_PATH" value="rpc-common/target/classes/com/prac/rpc/exception/RpcException.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2021_7_24_9_46_取消提交了变更_[默认变更列表]/RpcException.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="rpc-common/target/classes/com/prac/rpc/entity/RpcRequest.class" />
+    <option name="AFTER_PATH" value="rpc-common/target/classes/com/prac/rpc/entity/RpcRequest.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2021_7_24_9_46_取消提交了变更_[默认变更列表]/RpcRequest.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="rpc-core/target/classes/com/prac/rpc/registry/NacosServiceDiscovery.class" />
+    <option name="AFTER_PATH" value="rpc-core/target/classes/com/prac/rpc/registry/NacosServiceDiscovery.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2021_7_24_9_46_取消提交了变更_[默认变更列表]/NacosServiceDiscovery.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="rpc-core/target/classes/com/prac/rpc/transport/netty/server/NettyServerHandler.class" />
+    <option name="AFTER_PATH" value="rpc-core/target/classes/com/prac/rpc/transport/netty/server/NettyServerHandler.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2021_7_24_9_46_取消提交了变更_[默认变更列表]/NettyServerHandler.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="rpc-common/target/classes/com/prac/rpc/util/RpcMessageChecker.class" />
+    <option name="AFTER_PATH" value="rpc-common/target/classes/com/prac/rpc/util/RpcMessageChecker.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2021_7_24_9_46_取消提交了变更_[默认变更列表]/RpcMessageChecker.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="rpc-core/target/classes/com/prac/rpc/transport/codec/CommonDecoder.class" />
+    <option name="AFTER_PATH" value="rpc-core/target/classes/com/prac/rpc/transport/codec/CommonDecoder.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2021_7_24_9_46_取消提交了变更_[默认变更列表]/CommonDecoder.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="rpc-core/target/classes/com/prac/rpc/transport/netty/server/NettyServer.class" />
+    <option name="AFTER_PATH" value="rpc-core/target/classes/com/prac/rpc/transport/netty/server/NettyServer.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2021_7_24_9_46_取消提交了变更_[默认变更列表]/NettyServer.class" />
+  </binary>
+</changelist>

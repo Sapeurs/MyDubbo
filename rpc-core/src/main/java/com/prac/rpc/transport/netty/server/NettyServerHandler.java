@@ -15,7 +15,7 @@ import org.slf4j.LoggerFactory;
 /**
  * Netty中处理RpcRequest的Handler
  *
- * @author: Administrator
+ * @author: Sapeurs
  * @date: 2021/7/14 21:14
  * @description: 用于接收RpcRequest，并且执行调用，将调用结果返回封装成RpcResponse发送出去
  * 处理方式和Socket基本一致
@@ -58,17 +58,12 @@ public class NettyServerHandler extends SimpleChannelInboundHandler<RpcRequest> 
                 return;
             }
             logger.info("服务器接收到请求：{}", msg);
-            //String interfaceName = msg.getInterfaceName();
-            //Object service = serviceRegistry.getService(interfaceName);
             Object result = requestHandler.handle(msg);
             if (ctx.channel().isActive() && ctx.channel().isWritable()) {
                 ctx.writeAndFlush(RpcResponse.success(result, msg.getRequestId()));
             } else {
                 logger.error("通道不可写");
             }
-            //ChannelFuture future = ctx.writeAndFlush(RpcResponse.success(result, msg.getRequestId()));
-            //添加一个监听器到channelFuture来检测是否所有的数据包都发出，然后关闭通道
-            //future.addListener(ChannelFutureListener.CLOSE);
         } finally {
             ReferenceCountUtil.release(msg);
         }

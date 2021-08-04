@@ -16,7 +16,7 @@ import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.ExecutionException;
 
 /**
- * @author: Administrator
+ * @author: Sapeurs
  * @date: 2021/7/13 11:01
  * @description: Rpc客户端代理类，由于在客户端一侧没有接口的具体实现类，
  * 无法直接生成实例对象，所以通过动态代理的方式生成实例对象，
@@ -54,11 +54,10 @@ public class RpcClientProxy implements InvocationHandler {
 //                .paramTypes(method.getParameterTypes())
 //                .heartBeat(false)
 //                .build();
-        RpcRequest rpcRequest = new RpcRequest(UUID.randomUUID().toString(), method.getDeclaringClass().getName(), method.getName(),
-                args, method.getParameterTypes(), false);
-        //RpcClient rpcClient = new SocketClient();
-        //向服务器发送request对象，返回response对象
+        RpcRequest rpcRequest = new RpcRequest(UUID.randomUUID().toString(), method.getDeclaringClass().getName(),
+                method.getName(),args, method.getParameterTypes(), false);
 
+        //向服务器发送request对象，返回response对象
         RpcResponse rpcResponse = null;
         if (rpcClient instanceof NettyClient) {
             try {

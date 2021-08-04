@@ -8,7 +8,7 @@ import org.slf4j.LoggerFactory;
 /**
  * 接口ByeService的实现类
  *
- * @author: Administrator
+ * @author: Sapeurs
  * @date: 2021/7/21 14:56
  * @description:
  */
