@@ -5,48 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b243cabf-4485-459b-8abe-11966ec20fbd" name="默认变更列表" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/_2021_7_24_9_46____.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2021_7_24_9_46_取消提交了变更_[默认变更列表]/AbstractRpcServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2021_7_24_9_46_取消提交了变更_[默认变更列表]/ByeServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2021_7_24_9_46_取消提交了变更_[默认变更列表]/ChannelProvider$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2021_7_24_9_46_取消提交了变更_[默认变更列表]/ChannelProvider.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2021_7_24_9_46_取消提交了变更_[默认变更列表]/CommonDecoder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2021_7_24_9_46_取消提交了变更_[默认变更列表]/CommonEncoder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2021_7_24_9_46_取消提交了变更_[默认变更列表]/CommonSerializer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2021_7_24_9_46_取消提交了变更_[默认变更列表]/HelloObject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2021_7_24_9_46_取消提交了变更_[默认变更列表]/HessianSerializer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2021_7_24_9_46_取消提交了变更_[默认变更列表]/JsonSerializer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2021_7_24_9_46_取消提交了变更_[默认变更列表]/KryoSerializer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2021_7_24_9_46_取消提交了变更_[默认变更列表]/NacosServiceDiscovery.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2021_7_24_9_46_取消提交了变更_[默认变更列表]/NacosUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2021_7_24_9_46_取消提交了变更_[默认变更列表]/NettyClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2021_7_24_9_46_取消提交了变更_[默认变更列表]/NettyClientHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2021_7_24_9_46_取消提交了变更_[默认变更列表]/NettyServer$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2021_7_24_9_46_取消提交了变更_[默认变更列表]/NettyServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2021_7_24_9_46_取消提交了变更_[默认变更列表]/NettyServerHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2021_7_24_9_46_取消提交了变更_[默认变更列表]/NettyTestClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2021_7_24_9_46_取消提交了变更_[默认变更列表]/ObjectWriter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2021_7_24_9_46_取消提交了变更_[默认变更列表]/PackageType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2021_7_24_9_46_取消提交了变更_[默认变更列表]/ProtostuffSerializer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2021_7_24_9_46_取消提交了变更_[默认变更列表]/RandomLoadBalancer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2021_7_24_9_46_取消提交了变更_[默认变更列表]/ReflectUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2021_7_24_9_46_取消提交了变更_[默认变更列表]/RoundRobinLoadBalancer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2021_7_24_9_46_取消提交了变更_[默认变更列表]/RpcClientProxy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2021_7_24_9_46_取消提交了变更_[默认变更列表]/RpcError.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2021_7_24_9_46_取消提交了变更_[默认变更列表]/RpcException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2021_7_24_9_46_取消提交了变更_[默认变更列表]/RpcMessageChecker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2021_7_24_9_46_取消提交了变更_[默认变更列表]/RpcRequest$RpcRequestBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2021_7_24_9_46_取消提交了变更_[默认变更列表]/RpcRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2021_7_24_9_46_取消提交了变更_[默认变更列表]/RpcResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2021_7_24_9_46_取消提交了变更_[默认变更列表]/SerializerCode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2021_7_24_9_46_取消提交了变更_[默认变更列表]/ServiceProviderImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2021_7_24_9_46_取消提交了变更_[默认变更列表]/ShutdownHook.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2021_7_24_9_46_取消提交了变更_[默认变更列表]/SingletonFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2021_7_24_9_46_取消提交了变更_[默认变更列表]/SocketClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2021_7_24_9_46_取消提交了变更_[默认变更列表]/SocketServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2021_7_24_9_46_取消提交了变更_[默认变更列表]/TestClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2021_7_24_9_46_取消提交了变更_[默认变更列表]/TestServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2021_7_24_9_46_取消提交了变更_[默认变更列表]/shelved.patch" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -143,6 +101,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="应用程序.NettyTestClient" />
@@ -165,6 +134,7 @@
       <workItem from="1626660645037" duration="78398000" />
       <workItem from="1627030528234" duration="35158000" />
       <workItem from="1628343835094" duration="3009000" />
+      <workItem from="1629952226486" duration="5065000" />
     </task>
     <task id="LOCAL-00001" summary="Update README.md">
       <created>1627130565030</created>
@@ -208,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627215525428</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="8.26-lab">
+      <created>1629952327118</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1629952327118</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,7 +205,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Update README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update README.md" />
+    <MESSAGE value="8.26-lab" />
+    <option name="LAST_COMMIT_MESSAGE" value="8.26-lab" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
