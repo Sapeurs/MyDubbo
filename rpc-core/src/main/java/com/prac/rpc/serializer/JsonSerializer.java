@@ -23,6 +23,7 @@ public class JsonSerializer implements CommonSerializer {
     @Override
     public byte[] serialize(Object obj) {
         try {
+            //转成json序列，并把结果输出成字节数组。
             return objectMapper.writeValueAsBytes(obj);
         } catch (JsonProcessingException e) {
             logger.error("序列化时有错误发生：{}", e.getMessage());
