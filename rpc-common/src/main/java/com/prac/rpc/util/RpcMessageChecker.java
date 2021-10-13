@@ -13,7 +13,7 @@ import org.slf4j.LoggerFactory;
  *
  * @author: Sapeurs
  * @date: 2021/7/23 14:31
- * @description: 为请求加上请求号，保证请求和响应一一对应
+ * @description: 为请求加上请求号，保证请求和响应一一对应（使用Socket方式传输时才会用到）
  */
 public class RpcMessageChecker {
 

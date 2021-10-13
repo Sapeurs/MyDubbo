@@ -47,7 +47,6 @@ public class NettyServerHandler extends SimpleChannelInboundHandler<RpcRequest> 
         } else {
             super.userEventTriggered(ctx, evt);
         }
-
     }
 
     @Override

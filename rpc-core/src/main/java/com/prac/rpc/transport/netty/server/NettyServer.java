@@ -85,7 +85,8 @@ public class NettyServer extends AbstractRpcServer {
                              */
                             pipeline.addLast(new CommonEncoder(serializer));
                             /*
-                            设定IdleStateHandler心跳检测每30秒进行一次读检测，如果30秒内ChannelRead()方法未被调用则触发一次userEventTrigger()方法
+                            设定IdleStateHandler心跳检测每30秒进行一次读检测，如果30秒内ChannelRead()方法
+                            未被调用则触发一次userEventTrigger()方法
                              */
                             pipeline.addLast(new IdleStateHandler(30, 0, 0, TimeUnit.SECONDS));
                             pipeline.addLast(new CommonDecoder());
